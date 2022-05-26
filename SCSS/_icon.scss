@@ -1,0 +1,35 @@
+.group_icon {
+  margin: 20px;
+  position: fixed;
+  bottom: 30%;
+  z-index: 100;
+  background-color: white;
+  border-radius: 20px;
+}
+.icon {
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 3px;
+  a {
+    display: block;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    margin-bottom: 1px;
+    z-index: 2;
+    transition: transform 0.2s;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+.zoom_icon {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+.zoom_icon:hover {
+  transform: scale(1.5);
+}

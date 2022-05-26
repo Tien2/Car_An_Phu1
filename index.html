@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car An Phu</title>
+    <link rel="icon" href="./img/item-oto.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body style="overflow-x: hidden">
+    <div class="container-fluid">
+      <div class="container-header">
+        <header id="header">
+          <ul id="nav">
+            <li class="huyndai-logo">
+              <a href="#">
+                <img src="./img/hyundai-logo.png" id="huyndai-logo" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#">Giới thiệu</a>
+            </li>
+            <li class="nav-menu-sp">
+              <a href="#">Sản phẩm</a>
+              <ul class="subnav display-none js-subnav-item">
+                <li class="top-submenu"><a href="#">Xe du lịch</a></li>
+                <li><a href="#">Xe SUV</a></li>
+                <li><a href="#">Xe thương mại</a></li>
+                <li><a href="#">Limousine An Phú</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Tin tức</a>
+              <ul class="subnav display-none js-subnav-item">
+                <li class="top-submenu"><a href="#">Tin khuyến mãi</a></li>
+                <li><a href="#">Khuyến mãi 12</a></li>
+                <li><a href="#">Danh mục mới 123</a></li>
+                <li><a href="#">Danh mục mới 123</a></li>
+                <li><a href="#">Danh mục mới 1256</a></li>
+                <li><a href="#">Danh mục mới 123456</a></li>
+                <li><a href="#">Tin tức chung</a></li>
+                <li><a href="#">tintuc</a></li>
+                <li><a href="#">Tuyển dụng</a></li>
+                <li><a href="#">Hỏi đáp</a></li>
+                <li><a href="#">Hỏi đáp</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Dịch vụ</a>
+              <ul class="subnav display-none js-subnav-item">
+                <li class="top-submenu"><a href="#">Chăm sóc khách hàng</a></li>
+                <li><a href="#">Hướng dẫn bảo hành</a></li>
+                <li><a href="#">Bảo dưỡng định kỳ</a></li>
+                <li><a href="#">Phụ tùng &amp; phụ kiện</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Đăng ký lái thử</a>
+              <ul class="subnav display-none js-subnav-item">
+                <li class="top-submenu"><a href="#">Đăng ký lái thử</a></li>
+                <li><a href="#">Đặt lịch bảo dưỡng</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Mua xe</a>
+              <ul class="subnav display-none js-subnav-item">
+                <li class="top-submenu"><a href="#">Bảng giá</a></li>
+                <li><a href="#">Dự toán chi phí</a></li>
+                <li><a href="#">Hỗ trợ trả góp</a></li>
+                <li><a href="#">Hướng dẫn thủ tục</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Liên hệ</a>
+            </li>
+            <li class="daily-logo">
+              <a href="#">
+                <img src="./img/shop.png" id="daily-logo" alt="" />
+              </a>
+            </li>
+          </ul>
+        </header>
+        <div class="mb-menu-top display-none">
+          <div class="mb-menu-top-above">
+            <div class="mb-daily-logo">
+              <a href="#">
+                <img src="./img/shop.png" alt="" />
+              </a>
+            </div>
+            <div class="mb-menu-toggle" onclick="openMbMenu(event)">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+          <div class="phone">028 36 36 82 95</div>
+          <ul class="mb-menu-content display-none" id="mb-menu">
+            <li>
+              <a href="#" style="display: flex; float: left">Giới thiệu</a>
+            </li>
+            <li class="nav-menu-sp mb-menu-multi-level">
+              <div class="mb-menu-level-root">
+                <a href="#">Sản phẩm</a>
+                <span onclick="openSubMenu(event)"
+                  ><i class="fas fa-caret-down"></i
+                ></span>
+              </div>
+              <ul class="subnav js-subnav-item mb-subnav display-none">
+                <li><a href="#">Xe du lịch</a></li>
+                <li><a href="#">Xe SUV</a></li>
+                <li><a href="#">Xe thương mại</a></li>
+                <li><a href="#">Limousine An Phú</a></li>
+              </ul>
+            </li>
+            <li class="nav-menu-sp mb-menu-multi-level">
+              <div class="mb-menu-level-root">
+                <a href="#">Tin tức</a>
+                <span onclick="openSubMenu(event)"
+                  ><i class="fas fa-caret-down"></i
+                ></span>
+              </div>
+
+              <ul class="subnav display-none js-subnav-item">
+                <li><a href="#">Tin khuyến mãi</a></li>
+                <li><a href="#">Khuyến mãi 12</a></li>
+                <li><a href="#">Danh mục mới 123</a></li>
+                <li><a href="#">Danh mục mới 123</a></li>
+                <li><a href="#">Danh mục mới 1256</a></li>
+                <li><a href="#">Danh mục mới 123456</a></li>
+                <li><a href="#">Tin tức chung</a></li>
+                <li><a href="#">tintuc</a></li>
+                <li><a href="#">Tuyển dụng</a></li>
+                <li><a href="#">Hỏi đáp</a></li>
+                <li><a href="#">Hỏi đáp</a></li>
+              </ul>
+            </li>
+            <li class="nav-menu-sp mb-menu-multi-level">
+              <div class="mb-menu-level-root">
+                <a href="#">Dịch vụ</a>
+                <span onclick="openSubMenu(event)"
+                  ><i class="fas fa-caret-down"></i
+                ></span>
+              </div>
+
+              <ul class="subnav display-none js-subnav-item">
+                <li><a href="#">Chăm sóc khách hàng</a></li>
+                <li><a href="#">Hướng dẫn bảo hành</a></li>
+                <li><a href="#">Bảo dưỡng định kỳ</a></li>
+                <li><a href="#">Phụ tùng &amp; phụ kiện</a></li>
+              </ul>
+            </li>
+            <li class="nav-menu-sp mb-menu-multi-level">
+              <div class="mb-menu-level-root">
+                <a href="#">Đăng ký lái thử</a>
+                <span onclick="openSubMenu(event)"
+                  ><i class="fas fa-caret-down"></i
+                ></span>
+              </div>
+
+              <ul class="subnav display-none js-subnav-item">
+                <li><a href="#">Đăng ký lái thử</a></li>
+                <li><a href="#">Đặt lịch bảo dưỡng</a></li>
+              </ul>
+            </li>
+            <li class="nav-menu-sp mb-menu-multi-level">
+              <div class="mb-menu-level-root">
+                <a href="#">Mua xe</a>
+                <span onclick="openSubMenu(event)"
+                  ><i class="fas fa-caret-down"></i
+                ></span>
+              </div>
+
+              <ul class="subnav display-none js-subnav-item">
+                <li><a href="#">Bảng giá</a></li>
+                <li><a href="#">Dự toán chi phí</a></li>
+                <li><a href="#">Hỗ trợ trả góp</a></li>
+                <li><a href="#">Hướng dẫn thủ tục</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" style="display: flex; float: left">Liên hệ</a>
+            </li>
+          </ul>
+        </div>
+        <script>
+          function openSubMenu(e) {
+            var element =
+              e.target.parentNode.parentNode.parentNode.childNodes[3];
+            if (element.classList.contains("display-none")) {
+              element.classList.remove("display-none");
+            } else {
+              element.classList.add("display-none");
+            }
+          }
+          function openMbMenu() {
+            var element = document.getElementById("mb-menu");
+            if (element.classList.contains("display-none")) {
+              element.classList.remove("display-none");
+            } else {
+              element.classList.add("display-none");
+            }
+          }
+        </script>
+        <script>
+          $(".top-submenu").hover(
+            function () {
+              $(".subnav").addClass("selected");
+            },
+            function () {
+              $(".subnav").removeClass("selected");
+            }
+          );
+        </script>
+      </div>
+      <div class="container-body">
+        <div class="container mt-2">
+          <ul class="row nav nav-tabs">
+            <li class="nav-item col-6 col-lg-3">
+              <a class="nav-link active" data-bs-toggle="tab" href="#Xedulich"
+                ><img src="./img/item_tabs_oto.png" alt="" /> Xe du lich</a
+              >
+            </li>
+            <li class="nav-item col-6 col-lg-3">
+              <a class="nav-link" data-bs-toggle="tab" href="#XeSUV"
+                ><img src="./img/item_tabs_oto.png" alt="" />Xe SUV</a
+              >
+            </li>
+            <li class="nav-item col-6 col-lg-3">
+              <a class="nav-link" data-bs-toggle="tab" href="#Xethuongmai"
+                ><img src="./img/item_tabs_oto.png" alt="" />Xe thuong mai</a
+              >
+            </li>
+            <li class="nav-item col-6 col-lg-3">
+              <a class="nav-link" data-bs-toggle="tab" href="#Xetest"
+                ><img src="./img/item_tabs_oto.png" alt="" />Xe test</a
+              >
+            </li>
+            <li class="nav-item col-6 col-lg-3">
+              <a class="nav-link" data-bs-toggle="tab" href="#Limousine"
+                ><img src="./img/item_tabs_oto.png" alt="" />Limousine</a
+              >
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="Xedulich">
+              <div class="row">
+                <div class="col-6 col-lg-3 body-oto">
+                  <div class="image_oto">
+                    <img
+                      class="body_img_oto zoom"
+                      src="./img/img_oto/1.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_oto">
+                    <h5>Name</h5>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 body-oto">
+                  <div class="image_oto">
+                    <img
+                      class="body_img_oto zoom"
+                      src="./img/img_oto/2.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_oto">
+                    <h5>Name</h5>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 body-oto">
+                  <div class="image_oto">
+                    <img
+                      class="body_img_oto zoom"
+                      src="./img/img_oto/3.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_oto">
+                    <h5>Name</h5>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 body-oto">
+                  <div class="image_oto">
+                    <img
+                      class="body_img_oto zoom"
+                      src="./img/img_oto/4.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_oto">
+                    <h5>Name</h5>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 body-oto">
+                  <div class="image_oto">
+                    <img
+                      class="body_img_oto zoom"
+                      src="./img/img_oto/5.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_oto">
+                    <h5>Name</h5>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 body-oto">
+                  <div class="image_oto">
+                    <img
+                      class="body_img_oto zoom"
+                      src="./img/img_oto/6.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_oto">
+                    <h5>Name</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="XeSUV">
+              <div class="row">
+                <div class="col-6 col-lg-3 body-oto">
+                  <div class="image_oto">
+                    <img
+                      class="body_img_oto zoom"
+                      src="./img/img_oto/7.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_oto">
+                    <h5>Name</h5>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3 body-oto">
+                  <div class="image_oto">
+                    <img
+                      class="body_img_oto zoom"
+                      src="./img/img_oto/8.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_oto">
+                    <h5>Name</h5>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3 body-oto">
+                  <div class="image_oto">
+                    <img
+                      class="body_img_oto zoom"
+                      src="./img/img_oto/9.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_oto">
+                    <h5>Name</h5>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3 body-oto">
+                  <div class="image_oto">
+                    <img
+                      class="body_img_oto zoom"
+                      src="./img/img_oto/10.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_oto">
+                    <h5>Name</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="Xethuongmai">
+              <div class="row">
+                <div class="col-6 col-md-3 body-oto">
+                  <div class="image_oto">
+                    <img
+                      class="body_img_oto zoom"
+                      src="./img/img_oto/11.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_oto">
+                    <h5>Name</h5>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3 body-oto">
+                  <div class="image_oto">
+                    <img
+                      class="body_img_oto zoom"
+                      src="./img/img_oto/12.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_oto">
+                    <h5>Name</h5>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3 body-oto">
+                  <div class="image_oto">
+                    <img
+                      class="body_img_oto zoom"
+                      src="./img/img_oto/13.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_oto">
+                    <h5>Name</h5>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3 body-oto">
+                  <div class="image_oto">
+                    <img
+                      class="body_img_oto zoom"
+                      src="./img/img_oto/14.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_oto">
+                    <h5>Name</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="Xetest">
+              <div class="row">
+                <div class="col-6 col-md-3 body-oto">
+                  <div class="image_oto">
+                    <img
+                      class="body_img_oto zoom"
+                      src="./img/img_oto/12.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_oto">
+                    <h5>Name</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="Limousine">
+              <div class="row">
+                <div class="col-6 col-md-3 body-oto">
+                  <div class="image_oto">
+                    <img
+                      class="body_img_oto zoom"
+                      src="./img/img_oto/15.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="name_oto">
+                    <h5>Name</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-email"
+        style="background: url(./img/bg-regis.jpg) repeat"
+      >
+        <div class="col-xs-12" style="text-align: center">
+          <span class="titleEmail">Đăng ký để nhận tin từ Hyundai An Phú</span>
+          <span class="formEmail">
+            <input
+              class="form-email"
+              id="EmailRe"
+              name="EmailRe"
+              placeholder="Nhập địa chỉ Email"
+            />
+            <button class="button-email" onclick="_Send()">Gửi</button>
+          </span>
+        </div>
+      </div>
+      <div class="container_footer">
+        <div class="container_footer_top">
+          <div class="container-xxl" style="padding-top: 20px">
+            <div class="row">
+              <div class="col-12 col-md-3 footer_1">
+                <div class="img_reposive">
+                  <img
+                    src="./img/logo-footer.png"
+                    class="img_footer_1"
+                    alt="Ảnh footer"
+                  />
+                </div>
+                <div class="text_footer_1">
+                  <p style="margin: 0px 0px 10px 0px; font-size: 13px">
+                    Hyundai An Phú - Đại lý ủy quyền chính thức của Hyundai
+                    Thành Công là địa điểm trưng bày các dòng xe mới nhất của
+                    Hyundai.
+                    <br />
+                    <br />
+                    Tọa lạc tại trung tâm Thành Phố Hồ Chí Minh với các Showroom
+                    chuẩn 1S, 2S hiện đại, cùng đội ngũ chuyên viên tư vấn giàu
+                    kinh nghiệm.
+                    <br />
+                    <br />
+                    Hyundai An Phú mang sứ mệnh phục vụ khách hàng trên Toàn
+                    quốc, giúp khách hàng có những trải nghiệm ấn tượng về sản
+                    phẩm - dịch vụ cao cấp của chúng tôi.
+                    <br />
+                    <br />
+                    Liên hệ ngay để được tư vấn và nhận các chương trình ưu đãi
+                    hấp dẫn
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <h5 class="footer_headings">Hình ảnh</h5>
+                <div
+                  class="modal fade"
+                  id="gioithieu"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <div
+                          class="modal-header"
+                          style="padding: 0; z-index: 2"
+                        >
+                          <div class="close" data-bs-dismiss="modal">
+                            <i class="fas fa-times"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          class="img-modal"
+                          src="./img/img-footer-shop.jpg"
+                          alt="Giới thiệu showroom"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  class="img-responsive"
+                  data-bs-toggle="modal"
+                  data-bs-target="#gioithieu"
+                  src="./img/img-footer-shop.jpg"
+                  alt="Giới thiệu showroom"
+                />
+              </div>
+              <div class="col-12 col-md-3">
+                <h5 class="footer_headings">Bài Viết Gần Đây</h5>
+                <div class="content-item-title">
+                  <div class="row content-item-post">
+                    <div class="col-md-4 col-3 post-img">
+                      <img src="./img/content_img1.jpg" alt="" />
+                    </div>
+                    <div class="col-md-8 col-9 post-link">
+                      <span>🚘 CHƯƠNG TRÌNH GIA HẠN BẢO HÀNH “H...</span>
+                      <span class="post-date">17/04/2020</span>
+                    </div>
+                  </div>
+                  <div class="row content-item-post">
+                    <div class="col-md-4 col-3 post-img">
+                      <img src="./img/content_img2.jpg" alt="" />
+                    </div>
+                    <div class="col-md-8 col-9 post-link">
+                      <span>🔥 KHỞI SẮC ROADSHOW THÁNG 06 TẠI H...</span>
+                      <span class="post-date">13/06/2020</span>
+                    </div>
+                  </div>
+                  <div class="row content-item-post">
+                    <div class="col-md-4 col-3 post-img">
+                      <img src="img/content_img3.jpg" alt="" />
+                    </div>
+                    <div class="col-md-8 col-9 post-link">
+                      <span>🏆 ĐÓN XE SANG CÙNG HYUNDAI AN PHÚ ...</span>
+                      <span class="post-date">12/06/2020</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3">
+                <h5 class="footer_headings">Facebook</h5>
+                <div class="content-facebook">
+                  <div id="fb-root"></div>
+                  <script
+                    async
+                    defer
+                    crossorigin="anonymous"
+                    src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v13.0"
+                    nonce="Ob5KQ7e8"
+                  ></script>
+                  <div
+                    class="fb-page"
+                    data-href="https://www.facebook.com/facebook"
+                    data-tabs="timeline"
+                    data-width="320"
+                    data-height="400"
+                    data-small-header="false"
+                    data-adapt-container-width="true"
+                    data-hide-cover="false"
+                    data-show-facepile="false"
+                  >
+                    <blockquote
+                      cite="https://www.facebook.com/facebook"
+                      class="fb-xfbml-parse-ignore"
+                    >
+                      <a href="https://www.facebook.com/facebook">Meta</a>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container_footer_bottom">
+          <div class="container-sm">
+            <div class="row">
+              <div class="col-md-4 col-12">
+                <img
+                  class="img-footer-bottom"
+                  src="./img/icon-market.svg"
+                  alt="Icon"
+                />
+                <p class="col-xs-10">
+                  Showroom 2S: 1052 Nguyễn Văn Linh, P.Tân Phong, Quận 7, TP.HCM
+                </p>
+              </div>
+              <div class="col-md-4 col-12">
+                <img
+                  class="img-footer-bottom"
+                  src="./img/icon-market.svg"
+                  alt="Icon"
+                />
+                <p class="col-xs-10">
+                  Showroom 1S: 5A Nguyễn Thị Minh Khai, P.Bến Nghé, Quận 1,
+                  TP.HCM
+                </p>
+              </div>
+              <div class="col-md-4 col-12">
+                <img
+                  class="img-footer-bottom"
+                  src="./img/icon-contact.svg"
+                  alt="Icon"
+                />
+                <a
+                  href="mailto:info@anphuhyundai.com.vn"
+                  style="text-decoration: none"
+                  ><p class="col-xs-10" style="margin-top: 15px">
+                    info@anphuhyundai.com.vn
+                  </p></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-footer-bot-promax">
+          <div class="footer_bottom">
+            <div class="footer_headings"><p>Copyright ©idocNet 2018</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="container-icon">
+        <div class="group_icon">
+          <div class="icon zoom_icon">
+            <a
+              href="https://www.youtube.com/channel/UC42dzoVIXh4275k3B0vkRqw?view_as=subscriber"
+              ><img src="./img/youtube.svg" alt="" />
+            </a>
+          </div>
+          <div class="icon zoom_icon">
+            <a href="https://www.facebook.com/hyundaianphu.mpcauto.vn">
+              <img
+                style="border-radius: 10px"
+                src="./img/facebook.svg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="telephone">
+        <div class="fix_tel">
+          <div class="animation_phone">
+            <div id="app">
+              <img src="./img/phone-ring.png" alt="" />
+            </div>
+          </div>
+          <div class="tel">
+            <p class="fone">1900 988 978</p>
+          </div>
+        </div>
+      </div>
+      <div class="make-regist">
+        <div class="regist">
+          <a href="">Đăng ký lái thử</a>
+        </div>
+        <div class="make-app">
+          <a href="">Đặt lịch bảo dưỡng</a>
+        </div>
+      </div>
+      <div>
+        <script
+          type="text/javascript"
+          src="http://icichtc.ewave.vn:4900/js/icic_lc.js?2"
+        ></script>
+        <script
+          type="text/javascript"
+          src="http://icichtc.ewave.vn:4900/livechatclient/scripts?appid=10372"
+        ></script>
+        <script>
+          function _Send() {
+            var email = $("#EmailRe").val();
+            var reg =
+              /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+
+            if (email == null || email == "") {
+              alert("Nhập email của bạn");
+              return false;
+            }
+            if (reg.test(email) == false) {
+              alert("Email không đúng định dạng");
+              return false;
+            }
+            var url = "/vi/Home/SendMailTinTuc";
+            $.ajax({
+              url: url,
+              data: { Email: email },
+              type: "post",
+              dataType: "json",
+              traditional: true,
+              success: function (data) {
+                if (data.Successful) {
+                  alert(
+                    "Địa chỉ email " +
+                      email +
+                      " vừa đăng ký nhận mail từ Hyundai An Phú. Cảm ơn bạn đã gửi yêu cầu!"
+                  );
+                }
+              },
+            });
+          }
+        </script>
+        <div
+          id="icic_lc_wrapper"
+          style="
+            position: fixed;
+            bottom: 0px;
+            right: 5px;
+            z-index: 9999;
+            height: 355px;
+            width: 300px;
+            border: none;
+            display: none;
+          "
+        >
+          <div
+            id="icic_lc_head"
+            style="
+              width: 100%;
+              height: 120px;
+              background: transparent;
+              cursor: pointer;
+              z-index: 10;
+              position: absolute;
+              top: 0;
+              left: 0;
+            "
+            onclick="icic_lc_hide();"
+          ></div>
+          <iframe
+            style="
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 300px;
+              height: 355px;
+              border: none;
+            "
+            src="http://icichtc.ewave.vn:4900/LiveChatClient?appId=10372&o=false"
+          ></iframe>
+        </div>
+        <div
+          id="icic_lc_button"
+          style="
+            position: fixed;
+            width: 200px;
+            height: 30px;
+            bottom: 0px;
+            right: 5px;
+            background: rgb(80, 178, 229);
+            border-radius: 3px 3px 0px 0px;
+            cursor: pointer;
+            display: block;
+          "
+          onclick="icic_lc_show();"
+        >
+          <span
+            style="
+              background: url(http://icichtc.ewave.vn:4900/images/livechat/lcwg.png)
+                center left no-repeat;
+              margin-left: 10px;
+              line-height: 30px;
+              display: inline-block;
+              padding-left: 30px;
+              font: 700 14px/30px arial;
+              color: #fff;
+            "
+            >Chat với chúng tôi!</span
+          >
+        </div>
+      </div>
+      <div class="on_top" id="back-to-top" style="visibility: hidden">
+        <div>
+          <a class="floating-top" href="#"></a>
+        </div>
+      </div>
+      <script>
+        window.onscroll = function () {
+          scrollFunction();
+        };
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 600 ||
+            document.documentElement.scrollTop > 600
+          ) {
+            document.getElementById("back-to-top").style.visibility = "visible";
+          } else {
+            document.getElementById("back-to-top").style.visibility = "hidden";
+          }
+        }
+        document
+          .getElementById("back-to-top")
+          .addEventListener("click", function () {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          });
+      </script>
+    </div>
+  </body>
+</html>

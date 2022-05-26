@@ -1,0 +1,51 @@
+.body_img_oto {
+  width: 100%;
+}
+.nav-tabs {
+  border: none;
+}
+.nav-link.active {
+  color: orange;
+}
+.nav-item {
+  border: none;
+  padding: 10px 0px;
+  a {
+    font-weight: bold;
+    img {
+      margin-right: 10px;
+    }
+  }
+}
+.nav-item:hover {
+  a {
+    color: orange;
+  }
+}
+.nav-item .nav-link img {
+  width: auto;
+}
+.nav-tabs .nav-link {
+  border: none;
+  margin-bottom: 0;
+}
+.name_oto {
+  text-align: center;
+  font-size: 10px;
+}
+.tab-content {
+  border-top: 2px solid gray;
+  padding-top: 60px;
+}
+.zoom {
+  transform: scale(1);
+  transition: 0.5s ease-in-out;
+}
+.zoom:hover {
+  transform: scale(1.2);
+}
+@media only screen and (max-width: 375px) {
+  .nav-tabs .nav-link {
+    padding: 0;
+  }
+}

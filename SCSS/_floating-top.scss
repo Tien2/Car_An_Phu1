@@ -1,0 +1,13 @@
+.floating-top {
+  right: 400px;
+  display: inline;
+  width: 100px;
+  height: 100px;
+  background: url(../img/back_to_top_1.png) left top / 100% 100% no-repeat;
+  position: fixed;
+  bottom: 20px;
+  cursor: pointer;
+  stop-opacity: 0;
+  z-index: 1000;
+  opacity: 0.8;
+}

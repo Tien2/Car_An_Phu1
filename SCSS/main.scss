@@ -1,0 +1,30 @@
+@import "header";
+@import "footer";
+@import "body";
+@import "media";
+@import "email";
+@import "icon";
+@import "telephone";
+@import "make-regist";
+@import "footer-bot";
+@import "chatbox";
+@import "floating-top";
+@import "tabs-body";
+$font-web: "Chakra Petch", sans-serif;
+.container-body {
+  display: block;
+  padding-top: 40px;
+}
+
+body {
+  font-family: $font-web;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-fluid {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
